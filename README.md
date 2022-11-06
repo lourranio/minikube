@@ -28,3 +28,12 @@ X Exiting due to HOST_VIRT_UNAVAILABLE: Failed to start host: creating host: cre
   or
   
   ```minikube start --driver=virtualbox --no-vtx-check```
+
+
+## COMANDOS
+```https://minikube.sigs.k8s.io/docs/commands/stop/```
+
+```minikube stop```
+
+```minikube start```
+
