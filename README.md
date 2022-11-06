@@ -1,7 +1,7 @@
 # minikube
 minikube
 
-# PROBLEM 1
+## PROBLEM 1
 λ minikube start --driver=virtualbox
 * minikube v1.28.0 on Microsoft Windows 10 Pro 10.0.19043 Build 19043
 * Using the virtualbox driver based on existing profile
@@ -21,10 +21,10 @@ X Exiting due to HOST_VIRT_UNAVAILABLE: Failed to start host: creating host: cre
   " Failed to start virtualbox VM. Running "minikube delete" may fix it: creating host: create: precreate: This computer doesn't have VT-X/AMD-v enabled. Enabling it in the BIOS is mandatory "
   
   
-  SOLUTION 1
+  ## SOLUTION 1
   
-  λ minikube start --no-vtx-check
+  λ ```minikube start --no-vtx-check```
   
   or
   
-  minikube start --driver=virtualbox --no-vtx-check
+  ```minikube start --driver=virtualbox --no-vtx-check```
