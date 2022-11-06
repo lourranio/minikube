@@ -37,3 +37,7 @@ X Exiting due to HOST_VIRT_UNAVAILABLE: Failed to start host: creating host: cre
 
 ```minikube start```
 
+```minikube dashboard```
+
+Vai abrir uma pagina similar a: ```http://127.0.0.1:52838/api/v1/namespaces/kubernetes-dashboard/services/http:kubernetes-dashboard:/proxy/#/workloads?namespace=default```
+
